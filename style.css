@@ -1,0 +1,324 @@
+*{
+			padding: 0;
+			margin: 0;
+}
+
+body {
+	background-color: #e2e9ea;
+}
+header {
+	border-top: solid 127px white;
+	background-color: #04a6e2;
+	padding-top: 26px;
+}
+
+.div_header {
+	max-width: 960px; margin: auto;
+}
+
+.ol_header {
+	list-style: none;
+}
+
+.li_header_1 {
+	display: inline-block;
+}
+
+.li_header_2 {
+	display: inline-block;
+}
+
+.a_header_1 {
+	font-size: 12px;
+	color:white;
+	text-decoration: none;
+}
+
+.a_header_2 {
+	font-size: 12px;
+	color:white;
+	text-decoration: none;
+}
+
+h1 {
+	font-size: 26px;
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 26px
+}
+
+section {
+	background-color: white;
+	max-width: 960px;
+	margin: auto;
+	padding-top: 108px;
+	padding-bottom: 104px;
+}
+
+.div_main {
+	max-width: 770px;
+	margin: auto;
+}
+
+h2 {
+	font-size: 20px;
+	color: #7d7d7d;
+	margin-bottom: 64px;
+}
+
+.information_payment {
+	font-size: 16px;
+	color: #69bfe9;
+	margin-bottom: 25px;
+}
+
+.div_form {
+	max-width: 320px;
+}
+
+.div_prenom {
+	margin-bottom: 16px;
+}
+
+.l_prenom {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_prenom {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_famille {
+	margin-bottom: 16px;
+}
+
+.l_famille {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_famille {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_adress {
+	margin-bottom: 16px;
+}
+
+.l_adress {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_adress_1 {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	margin-bottom: 11px;
+	padding-left: 5px;
+}
+
+.input_adress_2 {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_zip {
+	margin-bottom: 16px;
+}
+
+.l_zip {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_zip {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_ville {
+	margin-bottom: 16px;
+}
+
+.label_ville {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_ville {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none;
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_province {
+	margin-bottom: 16px;
+}
+
+.l_province {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.select_province {
+	width: 100%;
+	background-color: #ebebeb;
+	height: 30px;
+	border: none;
+	box-sizing: border-box;
+}
+
+.div_pays {
+	margin-bottom: 16px;
+}
+
+.l_pays {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.select_pays {
+	width: 100%;
+	background-color: #ebebeb;
+	height: 30px;
+	border: none;
+	box-sizing: border-box;
+}
+
+.div_tel {
+	margin-bottom: 23px;
+}
+
+.l_tel {
+	display: block;
+	font-size: 14px;
+	color: #7d7d7d;
+}
+
+.input_tel {
+	width: 100%;
+	background-color: #ebebeb;
+	line-height: 30px;
+	border: none; 
+	box-sizing: border-box;
+	padding-left: 5px;
+}
+
+.div_checkbox {
+	margin-bottom: 69px;
+	max-width: 232px;
+}
+
+.l_checkbox {
+	display: inline-block;
+	font-size: 12px;
+	color: #929292;
+}
+
+.info_radio {
+	font-size: 16px;
+	color: #69bfe9; 
+	margin-bottom: 26px;
+}
+
+.div_card {
+	margin-bottom: 32px;
+}
+
+.input_card {
+	font-size: 14px;
+	color: #7d7d7d;
+	margin-right: 12px;
+}
+
+.input_paypal {
+	font-size: 14px;
+	color: #7d7d7d;
+	margin-right: 12px;
+	margin-left: 45px;
+}
+
+.div_img_verified {
+	display: inline-block;
+	margin-right: 5px;
+	margin-bottom: 12px;
+}
+
+.div_img_cards {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.img_cards {
+	margin-top: 13px;
+	margin-bottom: 14px;
+}
+
+h4 {
+	font-size: 14px;
+	color: #7d7d7d;
+	margin-bottom: 62px;
+}
+
+.div_annuler {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.but_annuler {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #c9c9c9;
+	border: none;
+	line-height: 40px;
+	width: 113px;
+}
+
+.div_submit {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.but_submit {
+	font-size: 14px;
+	color: #ffffff;
+	text-align: center;
+	background-color: #04a6e2;
+	border: none;
+	line-height: 40px;
+	width: 113px
+}
+

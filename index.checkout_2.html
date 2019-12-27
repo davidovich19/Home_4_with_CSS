@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Checkout</title>
+</head>
+<body>
+	<header>
+		<div class="div_header">
+			<ol class="ol_header">
+				<li class="li_header_1">
+					<a class="a_header_1" href="#">Accueil »</a>
+				</li>
+				<li class="li_header_2">
+					<a class="a_header_2" href="#">Traitement</a>
+				</li>
+			</ol>
+			<h1>Traitement</h1>
+		</div>
+	</header>
+	<section>
+		<div class="div_main">
+			<h2>Information</h2>
+			<h3 class="information_payment">Information de paiement</h3>
+			
+			<form action="" method="post">
+			<div class="div_form">
+				<div class="div_prenom">
+					<label class="l_prenom" for="prenom">Prénom</label>
+						<input class="input_prenom" type="text" name="Prénom" id="prenom">
+				</div>
+				<div class="div_famille">
+					<label class="l_famille" for="nom_de_famille">Nom de famille</label>
+						<input class="input_famille" type="text" name="nom_de_famille" id="nom_de_famille">
+				</div>
+				<div class="div_adress">
+					<label class="l_adress" for="adress">Adresse</label>
+						<input class="input_adress_1" type="text" name="adresse" id="adress">
+						<input class="input_adress_2" type="text" name="adress_2" id="adress_2">
+				</div>
+				<div class="div_zip">
+					<label class="l_zip" for="zip_code postale">Zip / Code Postale</label>
+						<input class="input_zip" type="text" name="zip_code postale" id="zip_code postale">
+				</div>
+				<div class="div_ville">
+					<label class="label_ville" for="ville">Ville</label>
+						<input class="input_ville" type="text" name="ville" id="ville">
+				</div>
+				<div class="div_province">
+					<label class="l_province" for="État_Province">État / Province</label>
+					<select class="select_province" name="État_Province" id="État_Province">État / Province</select>
+				</div>
+				<div class="div_pays">
+					<label class="l_pays" for="pays">Pays</label>
+					<select class="select_pays" name="pays" id="pays">Pays</select>
+				</div>
+				<div class="div_tel">
+					<label class="l_tel" for="telephone">Téléphone</label>
+						<input class="input_tel" type="tel" name="telephone" id="telephone">
+				</div>
+
+				<div class="div_checkbox">
+					<label class="l_checkbox">
+						<input type="checkbox" name="deliver_item" value="deliver_item">Faire la livraison des articles à l'adresse de facturation ci-dessus
+					</label>
+				</div>
+
+				<h3 class="info_radio">Information de paiement</h3>
+
+				<div class="div_card">
+					<label for="credit_card">
+						<input class="input_card" type="radio" name="payment" id="credit_card" value="credit_card">Carte de crédit
+					</label>
+					<label for="paypal">
+						<input class="input_paypal" type="radio" name="payment" checked="#" id="paypal" value="paypal">Paypal
+					</label>
+				</div>
+
+				<div class="div_img_verified">
+						<img src="images/paypal_verified.png" alt="PayPal_verified">
+				</div>
+
+				<div class="div_img_cards">
+					<img class="img_cards" src="images/paypal_cards.png" alt="PayPal_cards">
+				</div>
+			</div>	
+
+				<h4>Appuyez sur Continuer pour revoir votre prix final et Commander avec PayPal</h4>
+
+				<div class="div_annuler">
+					<button class="but_annuler" name="reset" type="reset" value="reset">Annuler</button>
+				</div>
+
+				<div class="div_submit">
+					<button class="but_submit" name="submit" type="submit" value="submit">Continuer »</button>
+				</div>
+				</form>
+	</section>
+</body>
+</html>
